@@ -132,7 +132,7 @@ h1 {
   position: absolute;
   padding: 16px;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   top: 0;
   color: #f9d3b4;
 }
