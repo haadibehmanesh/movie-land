@@ -30,8 +30,8 @@ function App() {
       </div>
 
       {
-        (movies || []).length > 0 ? movies.map((movie) => (
-          <MovieCard movie={movie} />
+        (movies || []).length > 0 ? movies.map((movie,index) => (
+          <MovieCard movie={movie} key={index}/>
         ))
           : (
             <div className="empty">No movies found</div>
